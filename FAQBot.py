@@ -13,16 +13,19 @@ class Bot:  #定义一个执行run的父类
 
     def _think(self, s):    #根据用户输入来计算程序回应的内容
         return s
+    
+    def _saywait(self, s):      #定义计算机反馈等待的时间
+        time.sleep(Bot.wait)
+        print(self._format(s))
+
 
     def _format(self, s):   #答案color上蓝色字
         return colored(s,'blue')
 
     def _run_once(self):    #假如runtype='once'，用于仅运行一次的bot
-        time.sleep(Bot.wait)
-        print(self._format(self.q))
+        self._saywait(self.q)
         self.a = input()
-        time.sleep(Bot.wait)
-        print(self._format(self._think(self.a)))
+        self._saywait(self._think(self.a))
 
     def _run_looped(self):  #假如runtype='looped'，用于要运行多次的bot
         time.sleep(Bot.wait)
@@ -32,7 +35,10 @@ class Bot:  #定义一个执行run的父类
             if self.a.lower() in ['q', 'x', 'quit', 'exit']:
                 break
             time.sleep(Bot.wait)
-            print(self._format(self._think(self.a)))
+            try:
+                print(self._format(self._think(self.a)))
+            except:
+                print("Warning! Wrong typo, input agaian")
             
     def run(self):  #run主程序，
         if self.runtype == 'once':
@@ -87,11 +93,11 @@ class FAQBot:   #对话系统的主类定义，即主流程
         self.bots.append(bot)   #使用列表的append()方法实现加入；
 
     def _prompt(self, s):
-        print(s)
+        print(colored(s,'blue'))
         print()
 
     def framerun(self):
-        self._prompt("This is Garfield dialog system. Let's talk.")
+        self._prompt("Welcome to my dialog system. Let's talk.")
         for bot in self.bots:
             bot.run()
 
