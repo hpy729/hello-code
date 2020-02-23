@@ -1,0 +1,43 @@
+PowerSpark——回蓝能量条闪光
+BaudAuction——拍卖行增强信息在一页显示
+ThreatClassic2——计仇恨
+MeetingHorn——集结号插件
+Fizzle——装备品质染色和耐久度显示
+MerInspect——装备一览
+Postal——邮箱增强
+MBB——插件按钮整合
+Is Toasts——通知没话，设置命令/LST
+TinyTooltip——鼠标提示
+ClassicMenus——右键菜单增强
+QuestAnnounce——任务进度通报
+LetMeCast——自动下马
+FriendListColors——好友&公会人员列表着色
+What's Training——可学法术查看
+Bagnon——背包整合和整理
+AuctionFaster——快速拍卖
+CharacterStatsClassic——人物面板属性统计
+Details——伤害统计
+ClassicSpellActivations——触发法术高亮
+TullaRange——动作条距离变色
+ClassicAuraDurations——显示光环倒数动画
+OmniCC——技能冷却计时闪光
+ClassicCastbars——目标施法条
+Atlas——副本掉落查询
+MonkeyQuest——猴子任务追踪
+QuestLogEx——展开的任务日志
+ClassicCodex——任务查询
+Leatrix_Maps——大地图自带鸟点标记
+WeakAuras——神级法术提醒
+Mendeleev——物品出处掉率
+LockboxCracker——开锁助手
+GatherMate2——采集助手
+PicoPoisons——将主副手毒药的剩余次数显示在右上Buff的图标上
+Poisoner——毒药助手，盗贼必备的插件,帮助盗贼快速上毒药/磨刀石,自动购买毒药
+Guidelime——任务导航
+AFK_fullscreen——暂离提示
+Scrap——智能的自动垃圾&自动修理助手
+ShowActionCount——技能使用次数/施法材料数量显示
+TidyPlates_ThreatPlates——姓名板美化增强
+SimpleEnergyBar——盗贼能量刻度监视，命令 /simpleenerybar 和 /seb
+PersonalShopper——自动购买，访问一个NPC时自动补货，命令/shopper list 查看当前购物列表，/shopper add [物品链接] X”（其中，[物品链接]是指向商品的实际链接，X是数量），/shopper remove[物品链接]”（其中[物品链接]是指商品的实际链接）从购物列表中删除商品
+OmniBar——敌对玩家法术冷却CD监视 
